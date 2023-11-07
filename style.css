@@ -175,3 +175,17 @@ body{
   position: absolute;
   top: 0px;
 }
+
+
+.mi-div-estilizado {
+  background-color: #3A83F1;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.mi-div-estilizado:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
